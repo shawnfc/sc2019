@@ -26,13 +26,13 @@
 
 h2.section-h2 {
   font-weight: 100;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 4rem;
   margin-bottom: 0;
 }
 
 h3.section-h3 {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -47,7 +47,7 @@ h3.section-h3 {
   letter-spacing: 0.1rem;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 790px) {
   .banner-heading h1 {
     font-size: 3rem;
   }
@@ -73,4 +73,37 @@ h3.section-h3 {
     font-size: 1.7rem;
   }
 }
-/*# sourceMappingURL=styles.css.map */
+
+section.client-container {
+  position: relative;
+  min-height: 350px;
+}
+
+section.client-container img.clients-bg-image {
+  position: absolute;
+  max-height: 490px;
+  bottom: 0;
+  right: 0px;
+}
+
+.social-media-card {
+  border-radius: 0;
+  color: #fff;
+}
+
+.social-media {
+  padding: 0;
+}
+
+.social-media .youtube {
+  background-color: #e62117;
+}
+
+.social-media .instagram {
+  background-color: #45739a;
+}
+
+.social-media .twitter {
+  background-color: #1da1f2;
+}
+/*# sourceMappingURL=home.component.css.map */

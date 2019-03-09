@@ -1,1 +1,79 @@
 /* You can add global styles to this file, and also import other style files */
+// VARIABLES
+$primary-color: #079fe0;
+$accent-color: #28a745;
+$general-gray: rgba(0, 0, 0, 0.6);
+$letter-spacing: .1rem;
+
+// NAVIGATION
+
+
+// GENERAL
+.banner-container {
+    position: relative;
+    text-align: center;
+}
+.banner-heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    letter-spacing: $letter-spacing;
+    p.banner-sub {
+        text-transform: uppercase;
+        color: $accent-color;
+        letter-spacing: $letter-spacing;
+    }
+}
+.first-section {
+    margin-top: 81px;
+}
+h2.section-h2 {
+    font-weight: 100;
+    color: $general-gray;
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+h3.section-h3 {
+    color: $general-gray;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing;
+}
+.section-title {
+    margin-top: 25px;
+}
+.btn {
+    text-transform: uppercase;
+    letter-spacing: $letter-spacing;
+}
+
+// TABLET
+@media screen and (max-width: 992px) {
+    .banner-heading h1 {
+        font-size: 3rem;
+    }
+    p.banner-sub {
+        font-size: 1.4rem;
+    }
+    .clients-bg-image {
+        display: none;
+    }
+}
+
+// MOBILE
+@media screen and (max-width: 690px) {
+    .banner-heading h1 {
+        font-size: 1.7rem;
+    }
+    p.banner-sub {
+        font-size: .7rem;
+    }
+    a.client-logo {
+        text-align: center;
+    }
+    .section-title h2, .section-title h3 {
+        font-size: 1.7rem;
+    }
+}
