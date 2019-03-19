@@ -14,6 +14,21 @@ section.client-container {
 .social-media-card {
     border-radius: 0;
     color: #fff;
+    .social-icon-cont {
+        border-right: 1px solid white;
+    }
+    p {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+    .card-body p.social-media-title {
+        text-transform: uppercase;
+        font-weight: 100;
+        font-size: .8rem;
+    }
+    .card-body p.subcribers {
+        font-weight: 400;
+    }
 }
 
 .social-media {

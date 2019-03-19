@@ -17,6 +17,7 @@ import { DocumentaryComponent } from './documentary/documentary.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AudioreelComponent } from './audioreel/audioreel.component';
 import { SpeakingComponent } from './speaking/speaking.component';
+import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
@@ -44,7 +45,8 @@ const appRoutes: Routes = [
     DocumentaryComponent,
     PortfolioComponent,
     AudioreelComponent,
-    SpeakingComponent
+    SpeakingComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,9 @@ $letter-spacing: .1rem;
 
 
 // GENERAL
+html, body {
+    height: 100%;
+}
 .banner-container {
     position: relative;
     text-align: center;

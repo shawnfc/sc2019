@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
+
 .banner-container {
   position: relative;
   text-align: center;
@@ -26,13 +30,13 @@
 
 h2.section-h2 {
   font-weight: 100;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 4rem;
   margin-bottom: 0;
 }
 
 h3.section-h3 {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -47,7 +51,7 @@ h3.section-h3 {
   letter-spacing: 0.1rem;
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 992px) {
   .banner-heading h1 {
     font-size: 3rem;
   }
@@ -89,6 +93,25 @@ section.client-container img.clients-bg-image {
 .social-media-card {
   border-radius: 0;
   color: #fff;
+}
+
+.social-media-card .social-icon-cont {
+  border-right: 1px solid white;
+}
+
+.social-media-card p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.social-media-card .card-body p.social-media-title {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: .8rem;
+}
+
+.social-media-card .card-body p.subcribers {
+  font-weight: 400;
 }
 
 .social-media {
